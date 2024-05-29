@@ -6,7 +6,7 @@ builder.Services.AddRazorPages();
 var app = builder.Build();
 
 // Add 5min sleep to simulate long running application
-System.Threading.Thread.Sleep(360000);
+System.Threading.Thread.Sleep(300000);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
